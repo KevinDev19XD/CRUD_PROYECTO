@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear Producto</title>
+    <link rel="stylesheet" href="creationForm.css">
+</head>
+    <body>
+        <div class="container">
+        <div class="containerForm">
+            <header>
+                <img class="imageLogo" src="../../../assets/images/logo-pg.png" alt="Logo" />
+            </header>
+            <h3>Crear Producto</h3>
+            <form id="productForm" class="form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required />
+
+                <label for="precio">Precio:</label>
+                <input type="number" id="precio" name="precio" step="0.01" required />
+
+                <label for="descripcion">Descripción:</label>
+                <textarea  id="descripcion" name="descripcion" required></textarea>
+                <div class="back-link">
+                    <a href="../../tablas/tablas.html">Regresar</a>
+                    <button type="submit">Crear</button>
+                </div>
+            </form>
+            
+        </div>
+        </div>
+    </body>
+</html>
